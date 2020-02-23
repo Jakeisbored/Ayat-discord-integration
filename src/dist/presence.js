@@ -21,11 +21,11 @@ presence['on']("UpdateData", () => {
         presenceData['details'] = "تصفح الصفحة الرئيسية";
     }
     /* If the pathname is /ayat/ , then attach a details key to the presence data*/
-    else if (document['location']['pathname'] == '/ayat/') {
-        presenceData['details'] = "صفحة تحميل التطبيق";
+    else if (document['location']['pathname'] == '/help/help.pdf') {
+        presenceData['details'] = "دليل الاستخدام";
     }
     /* If the pathname is help/help.pdf , then attach a details key to the presence data*/
-    else if (document['location']['pathname'] == '/help/help.pdf') {
+    else if (document['location']['pathname'] == '/ayat/') {
         switch ((new Url(document['location']['href']))['searchParams']['get']('pg')) {
             /* If the url param pg is contact , then attach a details key to the presence data*/
             case 'contact':
@@ -33,7 +33,7 @@ presence['on']("UpdateData", () => {
                 break;
                 /* If the case above evaluates to false , then attach a details key to the presence data*/
             default:
-                presenceData['details'] = "دليل الاستخدام";
+                presenceData['details'] = "صفحة تحميل التطبيق";
                 break;
         }
     }
