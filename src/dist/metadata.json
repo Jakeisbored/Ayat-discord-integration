@@ -1,0 +1,17 @@
+{
+  "author": {
+    "name": "Jake.#1111",
+    "id": "480407581085532180"
+  },
+  "service": "Ayat By Jake",
+  "description": {
+    "en": "A discord presence for Ayat web app made by King Saud University"
+  },
+  "url": "quran.ksu.edu.sa",
+  "version": "1.0.0",
+  "logo": "https://github.com/Jakeisbored/Ayat-discord-integration/blob/master/src/imgs/logo.png?raw=true",
+  "thumbnail": "",
+  "color": "#fv14cs",
+  "tags": ["Quran", "New"],
+  "category": "Quran"
+}
